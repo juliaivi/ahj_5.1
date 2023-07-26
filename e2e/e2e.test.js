@@ -28,10 +28,10 @@ describe('Credit Card Validator form', () => {
     page = await browser.newPage();
   });
 
-  afterAll(async () => { // закрытие и завершение тестов
-    await browser.close();
-    server.kill();
-  });
+  // afterAll(async () => { // закрытие и завершение тестов
+  //   await browser.close();
+  //   server.kill();
+  // });
 
   test('should add do something', async () => {
     await page.goto(baseUrl);
@@ -60,5 +60,10 @@ describe('Credit Card Validator form', () => {
     await btn.click();
 
     await page.waitForFunction(() => !document.querySelector('div .popover')); // проверка что елемент с таким классом удалился
+  });
+
+  afterAll(async () => { // закрытие и завершение тестов
+    await browser.close();
+    server.kill();
   });
 });

@@ -10,7 +10,7 @@
     "babel": "babel src -d dist",
     "lint": "eslint .",
     "test": "jest --coverage",
-    "e2e": "jest --testPathPattern=./e2e/ --runInBand --detectOpenHandles --forceExit"
+    "e2e": "jest --testPathPattern=./e2e/ --runInBand"
   },
   "author": "Julia",
   "license": "ISC",
