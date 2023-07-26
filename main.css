@@ -1,0 +1,89 @@
+body {
+  color: rgb(208, 208, 212);
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  position: absolute;
+  margin: 300px auto 0 auto;
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: 400;
+
+  color: #ffffff;
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6e1919;
+}
+
+.popover {
+  width: 300px;
+  position: absolute ;
+  box-sizing: border-box;
+}
+
+.popover-header {
+  margin: 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #242323;
+  border: 1px solid gray;
+  background-color: #e0e0e0; 
+  border-radius: 6px 6px 0 0;
+}
+
+.popover-body {
+  margin: 0;
+  padding: 10px;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 0 0 6px 6px;
+}
+
+.arrow {
+  position: relative;
+  top: -8px;
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border-top: 2px solid gray !important;
+  border-right: 2px solid gray !important;
+  transform: rotate(135deg);
+}
+/* Другие варианты кнопок */
+/* .popover::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: calc(50% - 10px);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgb(134, 134, 134);
+} */
+
+/* .arrow {
+    position: absolute;
+    border: 2px solid #343434;
+    left: 117px;
+    bottom: -8px;
+    transform: translate(35,35)
+    width: 16px;
+    height: 8px;
+    background-color: transparent;
+    /* background-image: url(../img/downarrow.png); 
+    background-size: 16px 11px;
+  } */
