@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/x2mgj96ro9sg2msu?svg=true)](https://ci.appveyor.com/project/juliaivi/ahj-5-1)
+[![Build status](https://ci.appveyor.com/api/projects/status/d3c79vv1pk6sn70y?svg=true)](https://ci.appveyor.com/project/juliaivi/ahj-5-1)
 
 # Домашнее задание к занятию "Работа с HTML-формами"
 
